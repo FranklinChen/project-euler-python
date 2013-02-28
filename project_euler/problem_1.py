@@ -28,3 +28,9 @@ def multiple_3_or_5(n):
     :return: whether n is a multiple of 3 or 5
     """
     return n % 3 == 0 or n % 5 == 0
+
+def answer():
+    return sum_multiple_3_or_5_below(1000)
+
+def print_answer():
+    print(answer())
